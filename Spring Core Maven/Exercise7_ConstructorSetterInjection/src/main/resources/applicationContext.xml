@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Constructor Injection -->
+    <bean id="department"
+          class="org.example.Department">
+
+
+        <constructor-arg value="Computer Science"/>
+
+
+    </bean>
+
+
+
+    <!-- Constructor + Setter Injection -->
+    <bean id="employee"
+          class="org.example.Employee">
+
+
+        <!-- Inject Department using Constructor -->
+        <constructor-arg ref="department"/>
+
+
+        <!-- Inject values using Setter -->
+        <property name="id" value="108"/>
+
+        <property name="name" value="Nithish"/>
+
+
+    </bean>
+
+
+</beans>
