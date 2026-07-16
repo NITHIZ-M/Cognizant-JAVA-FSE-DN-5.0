@@ -25,5 +25,6 @@ public class MyServiceTest {
 
         // Verify Result
         assertEquals("Mock Data", result);
+        Mockito.verify(mockApi).getData();
     }
 }

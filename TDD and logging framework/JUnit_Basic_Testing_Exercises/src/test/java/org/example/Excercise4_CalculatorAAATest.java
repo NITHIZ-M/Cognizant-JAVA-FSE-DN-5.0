@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorAAATest {
+public class Excercise4_CalculatorAAATest {
 
     private Calculator calculator;
 

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Assertion{
+public class Excercise3_Assertion{
 
     @Test
     public void testAssertions() {
