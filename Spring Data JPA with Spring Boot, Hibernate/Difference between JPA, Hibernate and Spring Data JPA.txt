@@ -1,0 +1,7 @@
+JPA vs Hibernate vs Spring Data JPA 
+
+JPA is a specification– defines object-relational mapping and persistence APIs.
+
+Hibernate is a popular implementation of JPA (and a full ORM framework).
+
+Spring Data JPA is an abstraction layer on top of JPA providers. It provides JpaRepository and reduces boilerplate code (no need to write DAO implementations).
