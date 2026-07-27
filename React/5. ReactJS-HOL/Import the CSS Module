@@ -1,0 +1,5 @@
+import styles from './CohortDetails.module.css';
+<div className="cohort-container">...</div>
+<div className={styles.box}>
+  ...
+</div>
