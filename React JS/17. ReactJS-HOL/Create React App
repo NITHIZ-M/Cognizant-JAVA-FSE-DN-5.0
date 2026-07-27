@@ -1,0 +1,2 @@
+npx create-react-app fetchuserapp
+cd fetchuserapp
