@@ -1,0 +1,4 @@
+git checkout master
+echo "<message>Hello from master branch</message>" > hello.xml
+git add hello.xml
+git commit -m "Added hello.xml in master branch with different content"

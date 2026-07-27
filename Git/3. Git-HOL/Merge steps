@@ -1,0 +1,8 @@
+
+git checkout master
+git diff master GitNewBranch
+git difftool master GitNewBranch
+git merge GitNewBranch
+git log --oneline --graph --decorate
+git branch -d GitNewBranch
+git status

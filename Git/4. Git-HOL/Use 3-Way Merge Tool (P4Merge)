@@ -1,0 +1,8 @@
+git mergetool
+P4Merge opens with:
+
+BASE (common ancestor)
+
+LOCAL (master)
+
+REMOTE (GitWork)

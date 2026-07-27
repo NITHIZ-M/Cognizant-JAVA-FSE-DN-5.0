@@ -1,0 +1,2 @@
+git add hello.xml
+git commit -m "Resolved conflict in hello.xml while merging GitWork into master"

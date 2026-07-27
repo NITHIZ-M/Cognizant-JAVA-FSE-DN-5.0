@@ -1,0 +1,3 @@
+git log --oneline --graph --decorate --all
+git diff master GitWork
+git difftool master GitWork

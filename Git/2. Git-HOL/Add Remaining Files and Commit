@@ -1,0 +1,3 @@
+echo "README for GitIgnoreDemo" > README.md
+git add README.md
+git commit -m "Added README, ignored .log files and log folder"

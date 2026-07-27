@@ -1,0 +1,5 @@
+touch .gitignore
+notepad++ .gitignore
+# Inside .gitignore, add:
+*.log
+log/

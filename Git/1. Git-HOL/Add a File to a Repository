@@ -1,0 +1,10 @@
+# Repository setup
+mkdir GitDemo
+cd GitDemo
+git init
+echo "Welcome to Git Hands-On Lab" > welcome.txt
+git status
+git add welcome.txt
+git commit
+git remote add origin https://github.com/yourusername/GitDemo.git
+git push -u origin master

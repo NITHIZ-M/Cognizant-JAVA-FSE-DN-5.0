@@ -1,0 +1,4 @@
+"This is from the new branch" > feature.txt
+git add feature.txt
+git commit -m "Added feature.txt in GitNewBranch"
+git status

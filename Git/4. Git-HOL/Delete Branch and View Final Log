@@ -1,0 +1,2 @@
+git branch -d GitWork
+git log --oneline --graph --decorate

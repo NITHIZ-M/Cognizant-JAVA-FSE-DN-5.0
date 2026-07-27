@@ -1,0 +1,5 @@
+git checkout -b GitWork
+echo "<message>Hello from GitWork branch</message>" > hello.xml
+git status
+git add hello.xml
+git commit -m "Added hello.xml in GitWork branch"

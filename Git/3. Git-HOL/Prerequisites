@@ -1,0 +1,10 @@
+Git installed and configured
+
+P4Merge installed and configured:
+
+Download: https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge
+#mcd
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.cmd '"C:/Program Files/Perforce/p4merge.exe" "$BASE" "$LOCAL" "$REMOTE" "$MERGED"'
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.cmd '"C:/Program Files/Perforce/p4merge.exe" "$LOCAL" "$REMOTE"'
